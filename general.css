@@ -1,0 +1,520 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: #666666;
+}
+
+#header{
+	margin: 0;
+	float: left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:760px;
+	background:#ffffff;
+}
+
+.himages{
+	float: right;
+}
+
+.headertourism{
+position:absolute;
+top:95px;
+left:492px;
+}
+
+.headerattract{
+position:absolute;
+top:95px;
+left:405px;
+}
+
+.headeraccredited{
+position:absolute;
+top:95px;
+left:313px;
+}
+
+.headerpanorama{
+position:absolute;
+top:277px;
+left:0px;
+}
+
+#headeraward{
+position:absolute;
+top:5px;
+left:305px;
+}
+
+#headerupdated{
+position:absolute;
+top:165px;
+left:0px;
+margin: 0;
+padding:0;
+text-align: center;
+width: 740px;
+}
+
+#headerupdated p, #headerupdated h1, #headerupdated h2, #headerupdated h3, #headerupdated h4{
+padding:0;
+margin:0;
+font-size: 12px;
+}
+
+#headertext{
+position:absolute;
+top:10px;
+left:580px;
+padding: 0;
+/*width:260px;*/
+}
+
+#headertext p{
+font-size:10px;
+color:#123456;
+line-height: 14px;
+margin:0 0 5px 0;
+padding:0;
+}
+
+.headerheading{
+font-size:12px;
+font-weight:bold;
+color:#123456;
+line-height: 14px;
+padding:0px;
+margin:0px;
+}
+
+.footerheading{
+font-size:12px;
+font-weight:bold;
+line-height: 14px;
+}
+
+.headermenu{
+	position:absolute;
+	top:217px;
+	left:0px;
+}
+
+#p7PMnav{
+	position: absolute;
+	top: 217px;
+	left: 1px;
+	width:760px;
+}
+
+#p7PMnav li{
+	font-size:10px;
+}
+
+#leftmenu{
+	position:absolute;
+	top:360px;
+	left:10px;
+}
+
+
+
+#mainbody{
+	margin: 0;
+	padding: 0;	
+	background: #cc9966;
+	background: url(/images/layout/background.gif) repeat-y;
+	width:758px;
+	border: solid 1px #000000;
+	background-color: #cc9966;
+
+	
+}
+
+#pagecontent{
+	/*width:595px;*/
+	float:left;
+	padding: 350px 10px 30px 160px;
+	background-color: #cc9966;
+	margin:0;
+}
+
+#rightcol{
+	position:absolute;
+	top:310px;
+	left:530px;
+	width:200px;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid #f7ad08;
+	background: #f3cd99;
+}
+
+
+#footer {
+background:transparent url(/images/layout/footer.gif) repeat scroll 0%;
+clear:both;
+height:80px;
+margin:0pt;
+text-align:center;
+width:758px;
+}
+
+#footer p{
+	padding-left:50px;
+	padding-top:12px;
+	font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+a:link{
+	color: #993333;
+	background: transparent;
+}
+
+a:visited{
+	color: #333300;
+	background: transparent;
+}
+
+#leftmenu a:hover{ /* Rollovers for the Menus */
+	background-color:#4570A5;
+}
+
+#topmenu a:hover{
+	background-color:#4570A5;
+border-style:inset;
+	}
+	
+#topmenu a:link{
+	
+		border-style:outset;
+}
+
+
+#topmenu img, #header img, #leftmenu img{
+	border: none;
+	margin: 0;
+}
+
+h1,h2{
+	clear:both;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h3,h4{
+
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h1{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+h2{
+	font-size: 16px;
+}
+
+.textclear{
+	clear:both;
+
+}
+
+h3{
+	font-size: 14px;
+}
+
+
+h4{
+	font-size: 12px;
+}
+p{
+	font: 10px/15px Verdana, Arial, Helvetica, sans-serif;
+}
+
+li{
+	font: 10px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+img{
+	border: 1px solid #000000;
+}
+
+.noborder{
+	border:0px;
+	margin: 5px 10px 5px 5px;	
+}
+
+table td, tr{
+	font: 10px/20px Verdana, Arial, Helvetica, sans-serif;
+	}
+
+.historydate{
+	width:50px;
+	}
+
+		
+.leftimagediv{
+	float: left;
+	margin: 5px 10px 5px 0;
+	padding-right:10px;
+
+}
+
+.midimagediv{				 
+	margin: 5px 210px 5px 210px;
+	padding:0px;
+}
+
+.midaltimagediv{
+	margin: 5px 170px 2px 150px;
+	padding:0px;
+}
+
+
+.rightimagediv{
+	float: right;
+	margin: 5px 0 5px 10px;
+	padding-left:0px;
+}
+	
+.bigimagediv{
+	float: left;
+	margin: 5px 15px 10px 5px;
+	padding:0px;
+	clear:both;
+}
+
+.midaltimagediv p{
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	font-style:italic;
+}
+
+.midimagediv p, .rightimagediv p, .leftimagediv p, .imagediv{
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	font-style:italic;
+}
+
+.aimgtext{
+	font-size: 10px;
+	padding-left:60px;
+	font-style: italic;
+	text-align: center;
+		margin: 0 0 5px 0;
+	}
+	
+.imgtext{
+	margin: 0 0 5px 0;
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+.hightext{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.emphtext{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.highmenu{
+	font-size: 10px;
+	font-weight: bold;
+}
+	
+.italtext{
+	font-style:italic;
+}
+
+.padding_bottom{
+	margin-bottom:14px;
+}
+
+.breakingnews{
+font-style:italic;
+}
+
+.timesonline{
+border: 1px solid #000000;
+padding:3px;
+}
+
+
+
+
+	/* ################ Rollover menu ############ */
+
+div.menu,
+div.menu a.menuItem {
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+div.menuBar {
+  background-color:transparent;
+  border: none;
+  margin:0;
+  padding:0;
+
+}
+
+div.menuBar a.menuButton {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: default;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  z-index: 100;
+
+}
+
+div.menuBar a.menuButtonActive:hover,
+div.menuBar a.menuButtonActive:hover img{
+  background-color: #007ab2;
+  border: none;
+  color: #ffffff;  
+  background-size:109px 22px  !important;
+  height:24px;
+
+}
+
+div.menu {
+  background-color: #e0e0e0;
+  border: 1px solid #333300;
+  padding: 0;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  visibility: hidden;
+  z-index: 101;
+}
+
+
+div.menu a.menuItem {
+  	color: #000000;
+	background-color: #cc9966;
+  	cursor: default;
+  	display: block;
+  	padding: 3px 1em;
+  	text-decoration: none;
+  	white-space: nowrap;
+}
+
+div.menu a.menuItem span.menuItemText { 
+  color: #000000;}
+ 
+div.menu a.menuItem:hover span.menuItemText { 
+  color: #ffffff;}  
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight{
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+div.menu a.menuItem span.menuItemArrow {
+  margin-right: -.75em;
+   color: #000000;
+}
+div.menu a.menuItem:hover span.menuItemArrow {
+   color: #ffffff;
+}
+
+div.menu div.menuItemSep {
+  border: 1px inset #ffffff;
+}
+
+/* ################ Rollover for MENU TWO############ */
+
+div.menu2,
+div.menu2 a.menu2Item {
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+div.menu2Bar {
+  background-color:transparent;
+  border: none;
+  margin:0;
+  padding:0;
+
+}
+
+div.menu2Bar a.menu2Button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: default;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  z-index: 100;
+}
+
+div.menu2Bar a.menu2ButtonActive:hover,
+div.menu2Bar a.menu2ButtonActive:hover img{
+  background-color: #007ab2;
+  border: none;
+  color: #ffffff;  
+}
+
+div.menu2 {
+  background-color: #e0e0e0;
+  border: 1px solid #333300;
+  padding: 0;
+  margin: -20px 0px 0px 110px; /* Changes the distance of the left sub menus from the menu.*/
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  visibility: hidden;
+  z-index: 101;
+}
+
+
+div.menu2 a.menu2Item {
+  	color: #000000;
+	background-color: #cc9966;
+  	cursor: default;
+  	display: block;
+  	padding: 3px 1em;
+  	text-decoration: none;
+  	white-space: nowrap;
+}
+
+div.menu2 a.menu2Item span.menu2ItemText { 
+  color: #000000;}
+ 
+div.menu2 a.menu2Item:hover span.menu2ItemText { 
+  color: #ffffff;}  
+div.menu2 a.menu2Item:hover, div.menu2 a.menu2ItemHighlight{
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+div.menu2 a.menu2Item span.menu2ItemArrow {
+  margin-right: -.75em;
+   color: #000000;
+}
+div.menu2 a.menu2Item:hover span.menu2ItemArrow {
+   color: #ffffff;
+}
+
+div.menu2 div.menu2ItemSep {
+  border: 1px inset #ffffff;
+}
